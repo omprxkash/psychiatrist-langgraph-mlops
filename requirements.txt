@@ -1,0 +1,27 @@
+# Core scientific stack
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+
+# LangGraph agent pipeline
+langchain>=0.2
+langchain-community>=0.2
+langchain-core>=0.2
+langgraph>=0.1
+
+# Serving
+streamlit>=1.33
+pydantic>=2.6
+python-dotenv>=1.0
+
+# ML (XGBoost + SHAP for severity model; both fall back gracefully if no checkpoint)
+xgboost>=2.0
+shap>=0.44
+
+# Retrieval (FAISS + BM25 for RAG; falls back to placeholder if no indexes built)
+faiss-cpu>=1.8
+rank-bm25>=0.2.2
+
+# Utilities
+rich>=13.7
